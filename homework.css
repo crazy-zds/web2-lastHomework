@@ -433,6 +433,9 @@ form{
 	width: 1024px;
 	display: block;
 	height: 576px;
+	position: absolute;
+	left: 0;
+	right: 0;
 }
 #lastT img{
 	width:1024px;
@@ -472,6 +475,9 @@ form{
 	display: none;
 	width: 1024px;
 	height: 576px;
+	position: absolute;
+	left: 0;
+	right: 0;
 }
 #lastY img{
 	width: 1024px;
