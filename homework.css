@@ -442,7 +442,7 @@ form{
 	position: absolute;
 	left: 20px;
 	top: 300px;
-	width: 350px;
+	width: 200px;
 	height: 75px;
 	border-width: 0;
 	background: url(pic/o.jpg) no-repeat center center;
@@ -451,7 +451,7 @@ form{
 	position: absolute;
 	right: 20px;
 	top: 300px;
-	width: 350px;
+	width: 200px;
 	height: 75px;
 	border-width: 0;
 	background: url(pic/p.jpg) no-repeat center center;
