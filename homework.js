@@ -1,7 +1,7 @@
 var age, name, password;
 var s = 1;
 var i = 1;
-var j;
+var j = 1;
 var num = 0;
 function luB(){
 	setInterval(function(){
@@ -71,7 +71,8 @@ function sub(){
 	document.getElementById("na").innerHTML = "用户名：" + "<br/>" + name;
 }
 function shouTu(){
-	i = j = 1;
+	i = 1;
+	j = i;
 	document.getElementById("lastT").style.display = "block";
 	document.getElementById("firstb").style.borderBottom="2px solid #33c8f3";
 	document.getElementById("lastY").style.display = "none";
@@ -79,7 +80,8 @@ function shouTu(){
 	document.getElementById("ft").src = "pic/1.webp";
 }
 function shouYin(){
-	i = j = 5;
+	i = 5;
+	j = i;
 	document.getElementById("lastT").style.display = "none";
 	document.getElementById("firstb").style.borderBottom="0";
 	document.getElementById("lastY").style.display = "block";
@@ -114,7 +116,7 @@ function itUp(){
 		a.src = 'pic/' + j + '.webp';
 	}
 	else{
-		j = i + 3;
+		j += 3;
 		a.src = 'pic/' + j + '.webp';
 	}
 }
