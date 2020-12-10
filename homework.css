@@ -433,7 +433,7 @@ form{
 	width: 1024px;
 	display: block;
 	height: 576px;
-	position: relative;
+	position: absolute;
 	left: 0;
 	right: 0;
 }
@@ -441,19 +441,27 @@ form{
 	width:1024px;
 	height:576px;
 }
-#o{
+#of{
 	position: absolute;
 	left: 20px;
 	top: 300px;
 	width: 200px;
 	height: 100px;
+}
+#o{
+	width: 200px;
+	height: 100px;
 	border-width: 0;
 	background: url(pic/o.jpg) no-repeat center center;
 }
-#p{
+#pf{
 	position: absolute;
 	right: 20px;
 	top: 300px;
+	width: 200px;
+	height: 100px;
+}
+#p{
 	width: 200px;
 	height: 100px;
 	border-width: 0;
@@ -467,7 +475,7 @@ form{
 	display: none;
 	width: 1024px;
 	height: 576px;
-	position: relative;
+	position: absolute;
 	left: 0;
 	right: 0;
 }
