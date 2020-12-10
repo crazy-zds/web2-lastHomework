@@ -442,11 +442,11 @@ form{
 	height:576px;
 }
 #of{
-	position: absolute;
-	left: 20px;
-	top: 300px;
 	width: 200px;
 	height: 100px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 200px;
 }
 #o{
 	width: 200px;
@@ -455,11 +455,11 @@ form{
 	background: url(pic/o.jpg) no-repeat center center;
 }
 #pf{
-	position: absolute;
-	right: 20px;
-	top: 300px;
 	width: 200px;
 	height: 100px;
+	float: right;
+	margin-right: 20px;
+	margin-top: 200px;
 }
 #p{
 	width: 200px;
