@@ -431,13 +431,14 @@ form{
 }
 #lastT{
 	width: 1024px;
-	display: block;
 	height: 576px;
-	position: absolute;
-	left: 0;
-	right: 0;
+	margin: 0 auto;
+	position: relative;
 }
 #lastT img{
+	position: absolute;
+	top: 0;
+	left: 0;
 	width:1024px;
 	height:576px;
 }
@@ -469,24 +470,18 @@ form{
 }
 #ft{
 	display: inline-block;
-	margin-left: 448px;
 }
 #lastY{
 	display: none;
 	width: 1024px;
 	height: 576px;
-	position: absolute;
-	left: 0;
-	right: 0;
 }
 #lastY img{
 	width: 1024px;
 	height: 576px;
 }
 #fyf{
-	display: inline-block;
-	margin-left: 448px;
-}
+	display: inline-block;}
 .foot{
 	height: 452px;
 	width: 100%;
