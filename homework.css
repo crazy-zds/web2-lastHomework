@@ -92,11 +92,11 @@ form{
 	height: 50px;
 	float: left;
 	display: none;
+	overflow: hidden;
 }
 #na{
 	display: inline-block;
 	color: #ccc;
-	overflow: hidden;
 }
 #acountAlert{
 	height: 15px;
